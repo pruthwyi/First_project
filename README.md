@@ -1,4 +1,20 @@
 # First_project
-So this is my first project which I uploaded on github 
-Have a look on it and tell me if I can do it better or not.
-I know this is simple easy project, but till then what are the things I do extra in it.  
+
+print("<========>Calculator<========>")
+
+NUM1 = int(input("Enter first number : "))
+NUM2 = int(input("Enter second number : "))
+
+operator = input("Enter the operator to be perfored : ")
+
+match(operator):
+    case "+":
+        print(f"Result : {NUM1 + NUM2}")
+    case "-":
+        print(f"Result : {NUM1 + NUM2}")
+    case "/":
+        print(f"Result : {NUM1 + NUM2}")
+    case "*":
+        print(f"Result : {NUM1 + NUM2}")
+    case _:
+        print(f"Invalid or Complited.")
